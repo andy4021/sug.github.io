@@ -1,0 +1,167 @@
+@charset "utf-8";
+/*css document*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,td,input,select,option,textarea{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size: 26.67vw;
+}
+html,body{
+	height: 100%;
+}
+body{
+	font-family:"微软雅黑";
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+}
+ul,ol{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+	display: block;
+}
+
+/*header*/
+header{
+	width: 100%;
+	height: .74rem;
+}
+.header_one{
+	width: 100%;
+	height: .44rem;
+	display: -webkit-flex;
+	-webkit-align-items:center;
+	-webkit-justify-content:space-between;
+}
+.head_left{
+	display:-webkit-flex;
+
+}
+.head_left img{
+	width:.14rem;
+	height:.16rem;
+	margin-left:.13rem;
+}
+.head_left span:nth-of-type(1){
+	font-size: 14px;
+	color:#333333;
+	margin-left:.05rem;
+	margin-right:.1rem;
+}
+.head_left span:nth-of-type(2){
+	font-size: 14px;
+	color:#ff8700;
+	font-weight: 900;
+}
+.head_right{
+	width:.2rem;
+	height:.2rem;
+	margin-right:.1rem;
+}
+.header_two{
+	display: -webkit-flex;
+	background: #f0f0f0;
+	height:.3rem;
+	width:3.51rem;
+	border-radius:.14rem;
+	margin:0 auto;
+	-webkit-align-items:center;
+	-webkit-justify-content:space-between;
+}
+.two_left{
+	display:-webkit-flex;
+	-webkit-align-items:center;
+}
+.two_left img{
+	width:.13rem;
+	height:.13rem;
+	margin-left:.12rem;
+	margin-right:.06rem;
+}
+.two_left span{
+	font-size:14px;
+	color:#999999;
+}
+.two_right{
+	width:.18rem;
+	height:.17rem;
+	margin-right:.12rem;
+}
+/*section*/
+section{
+	-webkit-flex:1;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.nav{
+	display: -webkit-flex;
+	width:100%;
+	padding-top:.09rem;
+	padding-bottom:.13rem;
+}
+.nav a{
+	-webkit-flex:1;
+	text-align:center;
+}
+.nav a img{
+	width:.27rem;
+	height:.27rem;
+	margin:0 auto;
+}
+.nav a span{
+	display:block;
+	font-size:12px;
+	color:#323232;
+	line-height: 12px;
+	margin-top:.07rem;
+}
+/* banner */
+.swiper-container{
+	width:3.55rem;
+	/* height:1.5rem; */
+}
+.swiper-slide img{
+	width:3.55rem;
+	/* height:1.4rem; */
+}
+.swiper-pagination-bullet{
+	width:4px;
+	height:4px;
+}
+.swiper-pagination-bullet-active{
+	width:.1rem;
+	height:4px;
+	background:white;
+	opacity:1;
+}
+
+/*footer*/
+footer{
+	width: 100%;
+	height: .5rem;
+	border-top: 2px solid #f1f1f1;
+	display: -webkit-flex;
+	-webkit-align-items:center;
+}
+footer a{
+	-webkit-flex:1;
+	text-align: center;
+}
+footer img{
+	width: .25rem;
+	height: .2rem;
+	margin:0 auto;
+}
+footer span{
+	display: block;
+	font-size: 10px;
+	color: #666666;
+}
+.words{
+	color:#ff8800;
+}

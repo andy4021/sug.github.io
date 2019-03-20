@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>我的</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="../css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="../css/my.css">
+</head>
+<body>
+<!-- header	 -->
+	<header>
+		<div class="header_one">
+			<div class="head_left">
+				<img src="../images/img-id/h01.png" alt=""/>
+				<span>送至：立人科技园C座</span><span>1小时送达</span>
+			</div>
+			<img class="head_right" src="../images/img-id/h02.png" alt=""/>
+		</div>
+		<div class="header_two">
+			<div class="two_left">
+				<img src="../images/img-id/h03.png" alt=""/>
+				<span>水果</span>
+			</div>
+			<img class="two_right" src="../images/img-id/h04.png" alt=""/>
+		</div>
+	</header>
+<!-- section -->
+	<section>
+		<div class="nav">
+			<a href="#"><img src="../images/img-id/n01.png" alt=""/><span>充值有礼</span></a>
+			<a href="#"><img src="../images/img-id/n02.png" alt=""/><span>充值有礼</span></a>
+			<a href="#"><img src="../images/img-id/n03.png" alt=""/><span>充值有礼</span></a>
+			<a href="#"><img src="../images/img-id/n04.png" alt=""/><span>充值有礼</span></a>
+		</div>
+	<!-- banner -->
+		<div class="banner">
+			<!-- <img src="img/banner.png" width="100%"/> -->
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="../images/img-id/adv1.png" alt=""/></div>
+					<div class="swiper-slide">Slide 2</div>
+					<div class="swiper-slide">Slide 3</div>
+				</div>
+				<!-- 如果需要分页器 -->
+				<div class="swiper-pagination"></div>
+				
+				<!-- 如果需要导航按钮 -->
+				<!-- <div class="swiper-button-prev"></div> -->
+				<!-- <div class="swiper-button-next"></div> -->
+				
+				<!-- 如果需要滚动条 -->
+				<!-- <div class="swiper-scrollbar"></div> -->
+			</div>
+		</div>
+	</section>
+<!-- footer -->
+	<footer>
+		<a href="javascript:;"><img src="../images/img-id/foot-01.png" alt=""><span class="words">首页</span></a>
+		<a href="javascript:;"><img src="../images/img-id/foot-02.png" alt=""><span>分类</span></a>
+		<a href="javascript:;"><img src="../images/img-id/foot-03.png" alt=""><span>购物车</span></a>
+		<a href="javascript:;"><img src="../images/img-id/foot-04.png" alt=""><span>我的</span></a>
+	</footer>
+	<script src="../js/swiper.min.js"></script>
+	<script>        
+		var mySwiper = new Swiper ('.swiper-container', {
+			direction: 'horizontal',
+			loop: true,
+			speed:1000,
+			//   effect : 'fade',
+		//   autoplay:true,
+			
+			autoplay: {
+				delay: 3000,
+				stopOnLastSlide: false,
+				disableOnInteraction: false,
+				},
+			// 如果需要分页器
+			pagination: {
+				el: '.swiper-pagination',
+				clickable :true,
+			},
+			// 如果需要前进后退按钮
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+			
+		//   nextButton: '.swiper-button-next',
+		//   prevButton: '.swiper-button-prev',
+			
+			// 如果需要滚动条
+			scrollbar: '.swiper-scrollbar',
+		})        
+	</script>
+</body>
+</html>

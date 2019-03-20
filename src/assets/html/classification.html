@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>分类</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="../css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="../css/classification.css">
+</head>
+<body>
+<!-- header	 -->
+	<header>
+		<div class="header_two">
+			<div class="two_left">
+				<img src="../images/img-id/h03.png" alt=""/>
+				<span>水果</span>
+			</div>
+		</div>
+	</header>
+<!-- section -->
+	<section>
+<!-- 左边导航 -->
+        <div class="left">
+            <ul id="menu">
+                <li>
+                    <img src="../images/imgClass/left011.png" alt=""/>
+                    <span>时令水果</span>
+                </li>
+                <li>
+                    <span>生鲜水产</span>
+                </li>
+                <li>
+                    <span>休闲零食</span>
+                </li>
+                <li>
+                    <span>生鲜水产</span>
+                </li>
+                <li>
+                    <span>生鲜水产</span>
+                </li>
+                <li>
+                  <span>生鲜水产</span>
+                </li>
+                <li>
+                  <span>生鲜水产</span>
+                </li>
+                <li>
+                  <span>生鲜水产</span>
+                </li>
+                <li>
+                  <span>生鲜水产</span>
+                </li>
+                <li>
+                  <span>生鲜水产</span>
+                </li>
+                <li>
+                    <span>生鲜水产</span>
+                </li>
+                <li>
+                    <span>生鲜水产</span>
+                </li>
+                <li>
+                    <span>生鲜水产</span>
+                </li>
+                <li>
+                    <span>生鲜水产</span>
+                </li>
+                <li>
+                    <span>生鲜水产</span>
+                </li>
+                <li>
+                    <span>生鲜水产</span>
+                </li>
+                <li>
+                    <span>生鲜水产</span>
+                </li>
+            </ul>
+        </div>
+<!-- 右边详情 -->
+        <div class="right">
+            <img src="../images/imgClass/right01.png" alt=""/>
+            <p>国产水果</p>
+            <div class="detail">
+                <img src="../images/imgClass/right02.png" alt=""/>
+                <div class="deta_right">
+                    <p>智利车厘子单J 250g装</p>
+                    <span>￥24.9</span>
+                    <img src="../images/imgClass/right04.png" alt=""/>
+                </div>
+            </div>
+            <div class="detail">
+                <img src="../images/imgClass/right03.png" alt=""/>
+                <div class="deta_right">
+                    <p>智利车厘子单J 250g装</p>
+                    <span>￥24.9</span>
+                    <img src="../images/imgClass/right04.png" alt=""/>
+                </div>
+            </div>
+            <div class="detail">
+                <img src="../images/imgClass/right02.png" alt=""/>
+                <div class="deta_right">
+                    <p>智利车厘子单J 250g装</p>
+                    <span>￥24.9</span>
+                    <img src="../images/imgClass/right04.png" alt=""/>
+                </div>
+            </div>
+            <div class="detail">
+              <img src="../images/imgClass/right02.png" alt=""/>
+              <div class="deta_right">
+                <p>智利车厘子单J 250g装</p>
+                <span>￥24.9</span>
+                <img src="../images/imgClass/right04.png" alt=""/>
+              </div>
+            </div>
+            <div class="detail">
+              <img src="../images/imgClass/right02.png" alt=""/>
+              <div class="deta_right">
+                <p>智利车厘子单J 250g装</p>
+                <span>￥24.9</span>
+                <img src="../images/imgClass/right04.png" alt=""/>
+              </div>
+            </div>
+            <div class="detail">
+              <img src="../images/imgClass/right02.png" alt=""/>
+              <div class="deta_right">
+                <p>智利车厘子单J 250g装</p>
+                <span>￥24.9</span>
+                <img src="../images/imgClass/right04.png" alt=""/>
+              </div>
+            </div>
+            <div class="detail">
+                <img src="../images/imgClass/right05.png" alt=""/>
+                <div class="deta_right">
+                    <p>智利车厘子单J 250g装</p>
+                    <span>￥24.9</span>
+                </div>
+            </div>
+            <img class="end" src="../images/imgClass/right06.png" alt=""/>
+        </div>
+	</section>
+<!-- footer -->
+	<footer>
+		<a href="javascript:;"><img src="../images/imgClass/foot01.png" alt=""><span>首页</span></a>
+		<a href="javascript:;"><img src="../images/imgClass/foot02.png" alt=""><span class="words">分类</span></a>
+		<a href="javascript:;"><img src="../images/img-id/foot-03.png" alt=""><span>购物车</span></a>
+		<a href="javascript:;"><img src="../images/img-id/foot-04.png" alt=""><span>我的</span></a>
+	</footer>
+</body>
+<script>
+    let lis = document.querySelector("#menu").children;
+    for(let i=0;i<lis.length;i++){
+        lis[i].onclick = function(){
+            console.log(2,i);
+            lis[i].style.backgroundImage="url(../images/imgClass/left01.png)";
+            lis[i].style.background="white";
+            lis[i].style.backgroundSize=".03rem .5rem";
+            for(let j=0;j<lis.length;j++){
+                if(j!=i){
+                    console.log(i,j);
+                    // lis[j].style.css="background:url(../imsges/imgClass/left01.png) no-repeat";
+                    lis[j].style.background="#f5f5f5";
+                }
+                
+            }
+        }
+    }
+</script>
+</html>

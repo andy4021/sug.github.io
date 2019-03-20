@@ -1,0 +1,35 @@
+@charset "utf-8";
+/*css document*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,td,input,select,option,textarea{
+  margin:0;
+  padding:0;
+}
+html{
+  font-size: 26.67vw;
+}
+body{
+  font-family:"微软雅黑";
+}
+html,body,#app{
+  height: 100%;
+}
+.flex_sec{
+  display: -webkit-flex;
+  flex-direction:column;
+  height:100%;
+}
+ul,ol{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+}
+img{
+  border:none;
+  display: block;
+}
+section{
+  -webkit-flex:1;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

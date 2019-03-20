@@ -1,0 +1,46 @@
+{
+  "user":{},
+  "title":"苏宁小店（高新万达店）",
+  "totalPrice":0,
+  "imgs": "/static/goodsCart/goods10.png",
+  "checked": "checked",
+  "count": 0,
+  "products":[
+    {
+      "title":"1伊利安慕希250ml",
+      "pic":"/static/goodsCart/goods03.png",
+      "price":5.5,
+      "qal":1,
+      "checked":true
+    },
+    {
+      "title":"2洽洽香花生（椒盐味）88g",
+      "pic":"/static/goodsCart/goods04.png",
+      "price":9,
+      "qal":1,
+      "checked":true
+    },
+    {
+      "title":"3伊利安慕希250ml",
+      "pic":"/static/goodsCart/goods03.png",
+      "price":5.5,
+      "qal":1,
+      "checked":true
+    },
+    {
+      "title":"4伊利安慕希250ml",
+      "pic":"/static/goodsCart/goods03.png",
+      "price":5.5,
+      "qal":1,
+      "checked":true
+    },
+    {
+      "title":"5伊利安慕希250ml",
+      "pic":"/static/goodsCart/goods03.png",
+      "price":5.5,
+      "qal":1,
+      "checked":true
+    }
+  ]
+
+}
